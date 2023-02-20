@@ -1,0 +1,522 @@
+body {
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    margin: 0;
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    height: 8vh;
+    background-image: url('https://365psd.ru/images/backgrounds/bg-dark-4827.png');
+    display: flex;
+    justify-content: center;
+}
+
+.silk_header {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+main {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.flex {
+    display: flex;
+    margin-left: 15vw;
+    margin-right: 10vw;
+    padding-bottom: 5vh;
+    border-bottom: 2px solid gray;
+}
+
+.big_text {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: left;
+    border-bottom: 2px solid red;
+}
+
+.loremipsum {
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.text_left {
+    padding-top: 5vh;
+    padding-left: 3vw;
+}
+
+#artur_foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: 4s;
+    box-shadow: 0px 0px 50px 2px #000;
+}
+
+#artur_foto:hover {
+    transform: rotate(540deg);
+}
+
+.img_right {
+    padding-left: 12vw;
+}
+
+.logo_text {
+    font-weight: bold;
+    font-size: 60px;
+    justify-content: center;
+    line-height: 1px;
+    font-stretch: 40%;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.black_fon {
+    background-image: url('https://365psd.ru/images/backgrounds/bg-dark-4827.png');
+    padding: 30px;
+}
+
+.line_left {
+    margin-top: 20px;
+    margin-left: 8vw;
+    text-align: left;
+    color: wheat;
+    padding-left: 20px;
+    border-left: 3px solid wheat;
+}
+
+.line_right {
+    margin-top: 30px;
+    margin-right: 8vw;
+    text-align: right;
+    color: wheat;
+    padding-right: 20px;
+    border-right: 3px solid wheat;
+}
+
+.block-iq {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    height: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.black-block-iq {
+    width: 100%;
+    height: auto;
+    color: white;
+    border: 1px solid black;
+    background-image: url('https://365psd.ru/images/backgrounds/bg-dark-4827.png');
+}
+
+.black-block-iq>p>span {
+    font-size: 55px;
+}
+
+.white-block-iq {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.white-block-iq>p>span {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.center-text {
+    margin-top: 150px;
+    font-size: 55px;
+    letter-spacing: 4px;
+    text-decoration: underline overline gray 5px;
+}
+
+#index-audio {
+    position: fixed;
+    z-index: 3000;
+    top: 0;
+    right: 0;
+}
+
+.kvadrat-img-urod {
+    transition: 1s;
+}
+
+.kvadrat-img-urod:hover {
+    transform: scale(1.1);
+}
+
+.kvadrat-urodi {
+    width: 280px;
+    height: 280px;
+    border-radius: 30px;
+    margin: 10px;
+    overflow: hidden;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.kvadrat-img-urod:hover {
+    transform: scale(1.2);
+}
+
+.text-relativ {
+    position: relative;
+    top: -180px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.7;
+}
+
+.middle-text {
+    font-size: 50px;
+}
+
+#absolut-glav {
+    position: absolute;
+    top: 145px;
+    left: 18.2%;
+    border-radius: 50%;
+    width: 705px;
+    height: 705px;
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.rep-govno {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 124, 146);
+    box-shadow: 0px 0px 100px 2px rgb(255, 32, 69);
+    margin: 5px;
+    margin-left: 10px;
+}
+
+#audio-other {
+    margin: 20px;
+    width: 500px;
+}
+
+.reper {
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.reper>p>span {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px rgb(255, 202, 102), 0 0 82px rgb(255, 202, 102), 0 0 92px rgb(255, 202, 102), 0 0 102px rgb(255, 202, 102), 0 0 151px rgb(255, 202, 102);
+}
+
+.reper>p {
+    font-size: 20px;
+    color: white;
+}
+
+.text-music {
+    padding-top: 50px;
+    text-align: left;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.slava-foto {
+    margin-top: 20px;
+}
+
+.text-music2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: right;
+    font-size: 20px;
+}
+
+#legenda-foto {
+    border-radius: 30px;
+}
+
+.text-legenda {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(64, 64, 64);
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px rgb(255, 0, 170), 0 0 82px rgb(255, 0, 170), 0 0 92px rgb(255, 0, 170), 0 0 102px rgb(255, 0, 170), 0 0 151px rgb(255, 0, 170);
+}
+
+.black_fon>p>span {
+    font-size: 40px;
+    color: white;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+
+.black_fon>p {
+    color: wheat;
+    line-height: 25px;
+}
+
+#legenda-audio {
+    position: fixed;
+    z-index: 3000;
+    top: 0;
+    right: 0;
+}
+
+.legenda-foto-mnogo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px 2px rgb(204, 0, 136);
+    margin-left: 50px;
+    transition: 3s;
+}
+
+.legenda-foto-mnogo:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.foto-galere {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+#line_bottom {
+    border-bottom: 5px solid black;
+    width: 90%;
+    height: 50px;
+    margin: 50px;
+    opacity: 0.4;
+}
+
+
+/* модальное окно слегка стыренное)) */
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 999;
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+    overflow: auto;
+}
+
+.popup {
+    top: 25%;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    margin: auto;
+    width: 85%;
+    min-width: 320px;
+    max-width: 600px;
+    position: absolute;
+    padding: 15px 20px;
+    border: 1px solid #383838;
+    background: #fefefe;
+    z-index: 1000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    font: 14px/18px 'Tahoma', Arial, sans-serif;
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+    -ms-box-shadow: 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+}
+
+.close {
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(0, 131, 119, 0.9);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    outline: none;
+}
+
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+/* кнопка закрытия при наведении */
+
+.close:hover {
+    background-color: rgba(252, 20, 0, 0.8);
+}
+
+
+/* ............. прелоадер .................. */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    z-index: 5000;
+}
+
+#preloader.hide-preloader {
+    animation: hidePreloader 2s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* //////////////////каруселька /////////////////// */
+
+.carousel-3d {
+    padding: 10px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carousel-3d>* {
+    flex: 0 0 auto;
+}
+
+.carousel-3d figure {
+    margin: 0;
+    width: 50%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.carousel-3d figure img,
+.carousel-3d figure div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.carousel-3d figure img {
+    user-select: none;
+}
+
+.carousel-3d figure div:not(:first-of-type),
+.carousel-3d figure img:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.carousel-3d nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+}
+
+.carousel-3d nav button {
+    flex: 0 0 auto;
+    margin: 0 5px;
+    cursor: pointer;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.carousel-3d nav button:hover {
+    color: #FFF;
+    background: black;
+}
+
+
+/* ///  php  /// */
